@@ -1,1 +1,2 @@
-# little_vet
+# easyplots
+Easyplots web application with Django

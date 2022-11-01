@@ -1,0 +1,17 @@
+{% extends 'vetoffice/base.html' %}
+
+{% block content %}
+
+<a href="{% url 'signup' %}"><button class="signup">Signup</button></a>
+
+<h1>Login or Sign up</h1>
+
+<form class="login-form" method="post">
+  <div>
+    {% csrf_token %}
+    {{ form.as_p }}
+    <input type="submit" value="Login"/>   
+  </form>
+  
+  {% endblock %}
+  
