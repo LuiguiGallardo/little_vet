@@ -1,3 +1,4 @@
+gunicorn
 adjustText==0.7.3
 anyio==3.5.0
 appnope==0.1.2
