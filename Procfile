@@ -1,2 +1,1 @@
-web: gunicorn littlevet.wsgi
-
+web: gunicorn --pythonpath littlevet.wsgi
