@@ -71,21 +71,24 @@ h1.centered{
   height: max-content;
   text-align: center;
   text-decoration: none;
-  border: 0px;
+  border: 1000px;
   background-color: #cb3318;
   border-radius: 5px;
   color: white;
   padding: 10px;
-  font-weight: bold;
-  float: right;
+  float: left;
 }
 
 .signup {
-  background-color: #4949eb;
-  color: white;
-  float: right;
+  height: max-content;
   text-align: center;
   text-decoration: none;
+  border: 1000px;
+  background-color: #4949eb;
+  border-radius: 5px;
+  color: white;
+  padding: 10px;
+  float: left;
 }
 
 .signup-form {

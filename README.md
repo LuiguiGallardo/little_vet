@@ -1,2 +1,2 @@
-# easyplots
-Easyplots web application with Django
+# Little-vet
+Little-vet web application with Django

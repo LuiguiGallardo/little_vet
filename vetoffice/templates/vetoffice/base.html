@@ -4,22 +4,23 @@
 <head>
   <link rel="stylesheet" type="text/css" href="{% static 'vetoffice/style.css' %}" />
   <title>{% block title %}LittleVet{% endblock %}</title>
-  {% block head %}{% endblock %}
+  {% block head %}
+  {% endblock %}
 </head>
 <body>   
-    <div class="app">
-        {% if user.is_authenticated %}
-        <a class="logout" href="/logout">Logout</a>
-        {% endif %}
+  <div class="app">
+    {% if user.is_authenticated %}
+    <a class="logout" href="/logout">Logout</a>
+    {% endif %}
     <header>
-      <div class="header-first-row">
-        <h1 class="title">LittleVet</h1>
-      </div>
+      <div style="text-align: center;">
+        <img src="{% static 'vetoffice/logo.png' %}" alt="logo" width=200px height=auto>
+        </div>
     </header>
     <main>
       {% block content %}
       {% endblock %}
     </main>
-</body>
-</html>
+  </body>
+  </html>
 
